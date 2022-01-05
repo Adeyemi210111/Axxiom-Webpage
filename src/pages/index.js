@@ -1,15 +1,16 @@
 import React from 'react';
 import { FaPiggyBank } from 'react-icons/fa';
 import '../css/home.css';
+import sample from '../video/bg-video.mp4';
 
 const Home = () => {
 return (
 
-	<div className="screen">
-    <div className="videoContainer">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/7EHnQ0VM4KY" title="YouTube video player"  allow="autoplay;" allowfullscreen></iframe>
-    </div>
-    </div>
+	<div className='video-container'>
+		<video className='videoTag' autoPlay loop muted>
+			<source src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4" type='video/mp4' />
+		</video>
+		</div>
 	
 );
 };
