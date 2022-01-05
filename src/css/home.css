@@ -25,5 +25,19 @@
 
   .welcome{
       z-index: 12;
-      color: red;
+      font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+        width: 45%;
+        color: #FFFFFF;
+
+        opacity: 0.5;
+  }
+
+  .home-img{
+      z-index: 12;
+        opacity: 0.5;
   }
